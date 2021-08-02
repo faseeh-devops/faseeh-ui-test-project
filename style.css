@@ -881,6 +881,10 @@ header {
   .mainnav ul {
     display: none;
   }
+  .feature-box {
+    width: 100vw;
+  }
+
   .mainnav .icon-ham {
     position: relative;
     display: inline;
@@ -904,5 +908,242 @@ header {
   .right img {
     width: 80%;
     margin-right: 120px;
+  }
+  .left {
+    margin-right: 80px;
+  }
+  .left h1 {
+    font-size: 2rem;
+  }
+  .left h2 {
+    font-size: 1.2rem;
+  }
+  .c-btn {
+    margin-top: 50px;
+    padding: 10px 10px;
+  }
+  .heading-p {
+    font-size: 1rem;
+  }
+  .c-heading {
+    font-size: 1.5rem;
+  }
+  .feature-row {
+    height: 180vh;
+  }
+  .feature-box {
+    border-radius: 10px;
+    flex-basis: 100%;
+    padding: 50px 50px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+  }
+  .icon-bg {
+    margin-left: 100px;
+  }
+
+  .info-2-left,
+  .info-2-right,
+  .info-3-left,
+  .info-3-right,
+  .info-4-left,
+  .info-4-right {
+    flex-basis: 100%;
+  }
+  .info-2-right img {
+    width: 100%;
+    margin-left: 0px;
+  }
+  .info-3-left img {
+    margin-top: 30px;
+    width: 100%;
+  }
+  .info-4-right img {
+    width: 100%;
+    margin-left: 0px;
+  }
+  .team {
+    height: 320vh;
+  }
+
+  .team-box {
+    flex-basis: 100%;
+    padding: 10px 10px;
+    margin-bottom: 100px;
+  }
+  .counter-box {
+    flex-basis: 50%;
+    text-align: start;
+    margin-left: 50px;
+  }
+  .news {
+    padding: 100px 20px;
+  }
+
+  .news-box {
+    flex-basis: 100%;
+
+    margin-bottom: 20px;
+    padding-bottom: 0px;
+    height: 450px;
+  }
+  .news-box img {
+    width: 100%;
+  }
+  .footer-box-2 .email {
+    display: block;
+    width: 80%;
+    height: 50px;
+    margin-left: 30px;
+  }
+  .footer-box-2 .email button {
+    position: absolute;
+    height: 35px;
+    width: 50px;
+    padding: 0px;
+    margin-bottom: 50px;
+    margin-left: 230px;
+  }
+  .footer-box-2 .email button i {
+    font-size: 1.5rem;
+  }
+  .pic-row {
+    justify-content: space-evenly;
+    flex-basis: 30%;
+  }
+  .pic-box img {
+    margin: 0px 0px;
+    width: 95%;
+  }
+  .copy {
+    margin-left: 20px;
+    margin-right: 10px;
+    line-height: 30px;
+  }
+  .info {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .img-1 {
+    position: static;
+
+    width: 100%;
+  }
+  .img-2 {
+    display: none;
+  }
+  .info-1-left,
+  .info-1-right {
+    flex-basis: 100%;
+  }
+  .info-1-left {
+    height: 60vh;
+  }
+  .rectangle {
+    position: relative;
+    width: 80px;
+    height: 80px;
+    margin-left: 5px;
+    margin-top: -120px;
+    margin-bottom: 500px;
+    padding: 0px;
+  }
+  .info-1-left h2 {
+    position: relative;
+    font-size: 1.5rem;
+    color: white;
+    font-weight: bold;
+    z-index: 20;
+    left: 50px;
+    top: -560px;
+  }
+  .text-1,
+  .text-2 {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 375px) {
+  .mainnav img {
+    margin-left: 80px;
+    width: 30%;
+  }
+
+  .mainnav .icon-ham {
+    position: relative;
+    display: inline;
+    right: 80px;
+    top: 33px;
+  }
+  .icon-bg {
+    margin-left: 75px;
+  }
+  .team-box img {
+    width: 90%;
+  }
+  .footer-box-2 h3,
+  .footer-box-2 p {
+    margin-left: 30px;
+  }
+  .footer-box-2 .social-row {
+    margin-left: 30px;
+  }
+  .copy {
+    margin-left: 50px;
+  }
+}
+@media screen and (max-width: 320px) {
+  header {
+    height: 80vh;
+  }
+  .mainnav img {
+    margin-left: 100px;
+    width: 30%;
+  }
+
+  .mainnav .icon-ham {
+    position: relative;
+    display: inline;
+    right: 100px;
+    top: 30px;
+  }
+  .feature-row {
+    height: 200vh;
+  }
+  .icon-bg {
+    margin-left: 50px;
+  }
+  .counter-box {
+    flex-basis: 50%;
+    text-align: start;
+    margin-left: 0px;
+  }
+  .team-box img {
+    width: 90%;
+  }
+  .team {
+    height: 290vh;
+    margin-bottom: 20px;
+  }
+  .news {
+    padding: 0px;
+  }
+  .news-box {
+    flex-basis: 100%;
+
+    margin-bottom: 20px;
+    padding-bottom: 0px;
+    height: 450px;
+    width: 200px;
+  }
+
+  .footer-box-2 h3,
+  .footer-box-2 p {
+    margin-left: 55px;
+  }
+  .footer-box-2 .social-row {
+    margin-left: 30px;
+  }
+  .copy {
+    margin-left: 50px;
   }
 }
