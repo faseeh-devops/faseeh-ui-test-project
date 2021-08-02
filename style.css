@@ -221,7 +221,7 @@ header {
 .info-2,
 .info-4 {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   flex-wrap: wrap;
   background-color: white;
@@ -252,28 +252,58 @@ header {
 
 .info-2-text,
 .info-4-left h2 {
-  justify-content: flex-start;
+  justify-content: flex-end;
   text-align: start;
   width: 60%;
-  /* margin-left: 250px; */
-  /* margin-bottom: 150px; */
-  line-height: 30px;
+  margin-left: 250px;
+
   font-size: 1.2rem;
   color: #6b6b6b;
   width: 60%;
   font-weight: 400;
+  line-height: 30px;
 }
 
 .info-2-left h3,
-.info-4-left h3,
+.info-4-left h3 {
+  position: relative;
+  text-align: start;
+  font-size: 2.5rem;
+  width: 60%;
+  margin-left: 250px;
+  margin-bottom: 50px;
+  margin-top: 0px;
+}
 .info-3-right h3 {
   position: relative;
   text-align: start;
   font-size: 2.5rem;
   width: 60%;
-  margin-left: 0;
+  margin-left: 0px;
   margin-bottom: 50px;
   margin-top: 0px;
+}
+.info-3-text {
+  justify-content: flex-end;
+  text-align: start;
+  width: 60%;
+  margin-left: 0px;
+
+  font-size: 1.2rem;
+  color: #6b6b6b;
+  width: 60%;
+  font-weight: 400;
+  line-height: 30px;
+}
+.heading-p-2-2 {
+  text-transform: uppercase;
+  color: #f7547f;
+  font-size: 1.2rem;
+  margin-top: 100px;
+  text-align: start;
+  margin-bottom: 50px;
+  margin-left: 0px;
+  margin-right: 3;
 }
 .heading-p-2 {
   text-transform: uppercase;
@@ -282,7 +312,7 @@ header {
   margin-top: 100px;
   text-align: start;
   margin-bottom: 50px;
-  /* margin-left: 50px; */
+  margin-left: 250px;
   margin-right: 3;
 }
 .info-2-left button,
@@ -305,6 +335,16 @@ header {
   border: none;
   outline: none;
   background: none;
+  margin-left: 250px;
+}
+.learn-2 {
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  color: #2e4158;
+  border: none;
+  outline: none;
+  background: none;
+  margin-left: 0px;
 }
 .info-3 {
   display: flex;
@@ -394,7 +434,7 @@ header {
   margin-top: 30px;
   color: #586779;
   font-size: 1.4rem;
-  margin-right: 100px;
+  margin-right: 0px;
 }
 .news {
   padding: 100px 50px;
@@ -705,7 +745,9 @@ header {
   .info-2-text,
   .info-4-left h2 {
     width: 100%;
+    margin-left: 0px;
   }
+
   .info-2-left h3,
   .info-4-left h3,
   .info-3-right h3 {
@@ -730,6 +772,9 @@ header {
   }
   .info-3-left img {
     width: 92%;
+  }
+  .info-3-text {
+    width: 100%;
   }
 
   .team {
@@ -1076,6 +1121,9 @@ header {
   }
   .icon-bg {
     margin-left: 75px;
+  }
+  .team {
+    height: 300vh;
   }
   .team-box img {
     width: 90%;
